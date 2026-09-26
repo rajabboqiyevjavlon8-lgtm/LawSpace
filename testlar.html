@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LawSpace — Testlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+<body>
+
+<header class="top-header">
+    <div class="logo">
+        <span>⚖</span>
+        <div>
+            <h1>LawSpace</h1>
+            <small>LEGAL EDUCATION</small>
+        </div>
+    </div>
+
+    <div class="header-text">
+        <p>Huquqni o‘rganing. Tahlil qiling. Rivojlaning.</p>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Bosh sahifa</a>
+    <a href="testlar.html">Testlar</a>
+    <a href="kazuslar.html">Kazuslar</a>
+    <a href="savollar.html">Savol-javob</a>
+    <a href="malumotlar.html">Huquqiy ma'lumotlar</a>
+</nav>
+
+<main>
+   <section class="quiz">
+
+    <div class="quiz-top">
+        <span id="question-number">1 / 10</span>
+        <span id="score">Ball: 0</span>
+    </div>
+
+    <div class="progress">
+        <div id="progress-bar"></div>
+    </div>
+
+    <h2 id="question"></h2>
+
+    <div id="answers" class="answers"></div>
+
+    <button id="next-btn" class="next-btn" onclick="window.nextQuestion()">
+    Keyingi →
+</button>
+</section> 
+</main>
+
+</body>
+</html>

@@ -1,0 +1,427 @@
+body {
+    font-family: Arial, sans-serif;
+   background: linear-gradient(180deg, #f5f8fc, #eaf1f7);
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #123b63;
+    font-size: 48px;
+}
+
+p {
+    color: #555;
+    font-size: 20px;
+}
+nav {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #123b63;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #123b63;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #123b63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0b2945;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.card h3 {
+    color: #123b63;
+    font-size: 24px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #123b63;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0b2945;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background: linear-gradient(135deg, #0b1f33, #123b63);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo span {
+    font-size: 42px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.logo small {
+    font-size: 10px;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+.header-text p {
+    margin: 0;
+    color: #dbeafe;
+    font-size: 15px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0;
+    padding: 14px 20px;
+    background-color: #081827;
+}
+
+nav a {
+    color: #dbeafe;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #123b63;
+    color: white;
+}
+.hero {
+    margin: 45px auto 20px;
+    max-width: 900px;
+    padding: 60px 30px;
+    background: linear-gradient(135deg, #ffffff, #eef5fb);
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.hero h2 {
+    margin: 0 0 15px;
+    font-size: 42px;
+    color: #0b1f33;
+    letter-spacing: -1px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #526273;
+}
+
+.hero button {
+    margin-top: 28px;
+    padding: 13px 32px;
+    background: #123b63;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(18, 59, 99, 0.25);
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    max-width: 900px;
+    margin: 35px auto 60px;
+    padding: 0 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #e3ebf3;
+    box-shadow: 0 8px 25px rgba(11, 31, 51, 0.07);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(11, 31, 51, 0.13);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0b1f33;
+    font-size: 22px;
+}
+
+.card p {
+    color: #607080;
+    line-height: 1.6;
+}
+
+.card button {
+    margin-top: 12px;
+    padding: 10px 18px;
+    background: #123b63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #0b1f33;
+    transform: translateY(-2px);
+}
+@media (max-width: 700px) {
+
+    .top-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        padding: 12px 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .hero {
+        margin: 25px 15px;
+        padding: 40px 20px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+}
+footer {
+    margin-top: 60px;
+    padding: 35px 20px;
+    background: #081827;
+    color: #b9c8d6;
+    text-align: center;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+.quiz {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.quiz h2 {
+    color: #0b1f33;
+    font-size: 32px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #34495e;
+    margin: 30px 0;
+}
+
+.answers {
+    display: grid;
+    gap: 12px;
+}
+
+.answers button {
+    padding: 15px;
+    border: 1px solid #d9e2ec;
+    border-radius: 10px;
+    background: #f7fafc;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+.answers button:hover {
+    background: #e8f1f8;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.quiz-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #526273;
+    font-weight: bold;
+}
+
+.progress {
+    width: 100%;
+    height: 8px;
+    background: #e5ebf1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#progress-bar {
+    width: 10%;
+    height: 100%;
+    background: #123b63;
+    transition: 0.3s;
+}
+
+.next-btn {
+    margin-top: 25px;
+    padding: 13px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #123b63;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background: #0b1f33;
+}
+
+.answers button.correct {
+    background: #dff5e5;
+    border-color: #35a854;
+}
+
+.answers button.wrong {
+    background: #ffe2e2;
+    border-color: #d93025;
+}
+
+.answers button:disabled {
+    cursor: default;
+}
+
+.result-box {
+    padding: 30px;
+    border-radius: 15px;
+    background: #f1f6fa;
+}
+
+.result-box h3 {
+    font-size: 42px;
+    margin: 0;
+    color: #123b63;
+}
+
+.result-box p {
+    font-size: 20px;
+}
